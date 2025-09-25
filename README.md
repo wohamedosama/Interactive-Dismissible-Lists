@@ -1,23 +1,40 @@
-# flutter_widget_exploration
+# Flutter Widget Exploration – Interactive Task List
 
-A new Flutter project.
+This Flutter project demonstrates an interactive task manager featuring:
+
+- **Swipe-to-delete** using `Dismissible`
+- **Drag-to-reorder** using `ReorderableListView`
+- **Confirmation dialog** before deleting a task
+- **Undo deletion** with a `SnackBar`
+- **Sample tasks** included for demonstration
+
+## Features
+
+- **Dismissible:** Swipe any task to the left to trigger a delete action.
+- **ReorderableListView:** Long-press and drag the handle to reorder tasks.
+- **Confirmation Dialog:** Before deleting, a dialog asks for confirmation.
+- **Undo with SnackBar:** After deletion, a SnackBar appears with an Undo option to restore the task.
+- **Sample Tasks:** The app starts with three example tasks:
+  - Complete Flutter assignment
+  - Review Clean Architecture
+  - Practice Widget catalog
 
 ## Getting Started
 
+1. Clone this repository.
+2. Run `flutter pub get` to fetch dependencies.
+3. Launch the app with `flutter run`.
 
+## video
 
-https://github.com/user-attachments/assets/aecf54d8-5726-4bda-a118-6fac7b11aa13
+<!-- Add screenshots here if available -->
 
+## Resources
 
+- [Dismissible Widget](https://api.flutter.dev/flutter/widgets/Dismissible-class.html)
+- [ReorderableListView Widget](https://api.flutter.dev/flutter/material/ReorderableListView-class.html)
+- [SnackBar Widget](https://api.flutter.dev/flutter/material/SnackBar-class.html)
 
+---
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For more Flutter samples and documentation, visit the [official Flutter docs](https://docs.flutter.dev/).
