@@ -59,6 +59,7 @@ class _ReorderableExampleState extends State<ReorderableExample> {
             await _showDeleteDialog(context, index);
             return false;
           },
+
           child: BoxShadowContainer(
             child: ListTile(
               key: ValueKey(_tasks[index]),
