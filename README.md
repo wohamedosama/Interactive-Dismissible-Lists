@@ -20,8 +20,10 @@ This isn't just another to-do app – it's a **complete interactive experience**
 ## 🎬 **See It In Action**
 
 > **Interactive.Dismissible.Lists.mp4** 📹
-> 
-> *Watch the smooth animations and intuitive interactions!*
+
+
+
+https://github.com/user-attachments/assets/68b528fd-d63d-45cc-a081-6e61ed692a61
 
 ---
 
